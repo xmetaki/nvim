@@ -15,5 +15,8 @@ require("lazy").setup({
     "tanvirtin/monokai.nvim",
     {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
     {"nvim-tree/nvim-tree.lua", event="VimEnter", dependencies="nvim-tree/nvim-web-devicons"},
-    {"nvim-telescope/telescope.nvim", dependencies="nvim-lua/plenary.nvim"}
+    {"nvim-telescope/telescope.nvim", dependencies="nvim-lua/plenary.nvim"},
+    {"williamboman/mason.nvim"},
+    {"williamboman/mason-lspconfig.nvim"},
+    {"neovim/nvim-lspconfig"},
 })
